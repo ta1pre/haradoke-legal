@@ -1,0 +1,13 @@
+:root{color-scheme:dark}
+body{margin:0;background:#0B0D12;color:#fff;font-family:"Hiragino Maru Gothic ProN","M PLUS Rounded 1c",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+.page{max-width:680px;margin:0 auto;padding:32px 24px 48px;box-sizing:border-box}
+.brand{font-size:16px;font-weight:700;letter-spacing:.1em;margin:0 0 24px}
+h1{font-size:22px;margin:0 0 24px}
+dl{display:grid;grid-template-columns:1fr;margin:0}
+dt{padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:13px;color:#A3ABB8}
+dd{margin:4px 0 16px;font-size:15px;line-height:1.7}
+dd ul{margin:6px 0 0;padding-left:1.2em}
+a{color:#A3ABB8}a:hover{color:#fff}
+nav{display:flex;flex-wrap:wrap;gap:0 20px;margin-top:32px;font-size:14px}
+nav a{padding:12px 0}
+@media (min-width:768px){dl{grid-template-columns:200px 1fr}dt,dd{margin:0;padding:16px 0;border-top:1px solid rgba(255,255,255,.08)}}
