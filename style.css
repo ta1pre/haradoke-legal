@@ -13,8 +13,13 @@ nav a{padding:12px 0}
 @media (min-width:768px){dl{grid-template-columns:200px 1fr}dt,dd{margin:0;padding:16px 0;border-top:1px solid rgba(255,255,255,.08)}}
 
 .support .brand{line-height:24px}
-.support h1{line-height:32px;margin-bottom:16px}
+.support h1{font-size:24px;line-height:32px;margin-bottom:16px}
 .support-intro{margin:0;max-width:32em;font-size:15px;line-height:24px;text-wrap:balance}
 .support-email{display:inline-block;padding:16px 0;font-size:16px;line-height:24px;color:inherit}
-.support nav{gap:0 24px;margin-top:16px;line-height:24px}
+.support nav{gap:0 24px;margin-top:16px;font-size:15px;line-height:24px}
 .support nav a{padding:8px 0}
+.support span{position:relative;top:-4px}
+.support h1 span{top:4px}
+.support nav span{top:5px}
+.support a{text-decoration:none}
+.support a span{text-decoration:underline;text-underline-offset:.18em}
