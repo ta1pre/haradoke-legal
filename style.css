@@ -11,3 +11,10 @@ a{color:#A3ABB8}a:hover{color:#fff}
 nav{display:flex;flex-wrap:wrap;gap:0 20px;margin-top:32px;font-size:14px}
 nav a{padding:12px 0}
 @media (min-width:768px){dl{grid-template-columns:200px 1fr}dt,dd{margin:0;padding:16px 0;border-top:1px solid rgba(255,255,255,.08)}}
+
+.support .brand{line-height:24px}
+.support h1{line-height:32px;margin-bottom:16px}
+.support-intro{margin:0;max-width:32em;font-size:15px;line-height:24px;text-wrap:balance}
+.support-email{display:inline-block;padding:16px 0;font-size:16px;line-height:24px;color:inherit}
+.support nav{gap:0 24px;margin-top:16px;line-height:24px}
+.support nav a{padding:8px 0}
